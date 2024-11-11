@@ -16,19 +16,30 @@ The cooling system for the computer room is connected to Chiller 3, located on t
 
 ![First Floor](./images/first_floor.jpg "First Floor")
 
-This Chiller supplies the CRAC units within the computer room. The lines connected to this Chiller are mixed with 35% glycol, which allows for optimal cooling efficiency and freeze protection. Glycol is essential in this setup as it prevents the coolant from freezing at low temperatures, especially during colder months. This antifreeze characteristic of glycol helps maintain consistent temperatures, reduces the risk of pipe damage due to freezing.
+This Chiller supplies the CRAC units within the computer room. The lines connected to this Chiller are mixed with 35% glycol, which allows for optimal cooling efficiency and freeze protection. Glycol is essential in this setup as it prevents the coolant from freezing at low temperatures, especially during colder months. This antifreeze characteristic of glycol helps maintain consistent temperatures and reduces the risk of pipe damage due to freezing.
 
 The lines supplying the CRAC units are installed within the false ceiling of the second floor, and the return lines interconnect above the location of the bathrooms.
 
 ![Current Lines](./images/current_lines.jpg "Current lines")
 
-There's a backup line connected to Chillers 1 and 2, which, through a heat exchanger, can supply the CRAC units in case of an issue with Chiller 3, however a second backup is in the planning, connected to a different UPS that could provide cooling in the case when the main UPS fails.
+There's a backup line connected to Chillers 1 and 2, which, through a heat exchanger, can supply the CRAC units in case of an issue with Chiller 3. 
+A second backup, discussed below, would mitigate many risks to the computer room cooling.
 
 ## Planned State
 
 To improve the availability of the CRAC units in the computer room, a second backup line from the Coating chiller will be connected to the main supply line that serves the computer room. This additional backup connection will enhance system redundancy, providing an extra layer of reliability in case of any disruptions with the primary or existing backup chillers
 
-The Coating chiller has 2 lines isolated from each other. One with 25% glycol and the other one with 38% glycol. Given the Chiller is currently mixed at 35% glycol, it should be compatible with 38% line coming from the Coating Chiller, which can be reduced to 36%. While this is a 1% reduction in the cooling of the computer room, it is acceptable.
+The Coating chiller has 2 lines isolated from each other. One with 25% glycol and the other one with 38% glycol. 
+The computer room CRAC will function equally well with 38% or 35% glycol mix. 
+
+Four electronically operated valves would be installed over the bathrooms to allow switching between the Level 1 and Level 3 chillers. 
+
+There will be some mixing of the glycols in the computer room CRAC. 
+This, or a accidental back flow, could lead over time to an equalization of the glycol at 36% (according to Doug). 
+The 36% glycol mix  is estimated to make a 1% overall difference to cooling efficiency but could allow the computer room to be taken off the main chiller reducing load by about 30% if needed.
+
+**Engineering need to confirm this assumption that 36% Glycol in all Chillers is ok. **
+
 
 ![Chiller Coating](./images/chiller_coating.png "Chiller Coating")
 
@@ -42,7 +53,7 @@ The connection to the current line will be done as shown in the image.
 
 Adding an inline filter near the coating chamber chiller, specifically on the line leading to the computer room, would be beneficial even though the coating chamber already has its own filter.
 
-Installing a check valve can help prevent backflow, providing an additional layer of protection beyond the four motorized valves that will be installed in line with the coating chiller. This check valve will ensure that the coolant flows in only one direction, preventing any potential reverse flow that could modify the glycol mixture.
+Installing a check valve can help prevent back flow, providing an additional layer of protection beyond the four motorized valves that will be installed in line with the coating chiller. This check valve will ensure that the coolant flows in only one direction, preventing any potential reverse flow that could modify the glycol mixture.
 
 ### Controls
 
