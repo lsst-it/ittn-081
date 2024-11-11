@@ -29,7 +29,7 @@ A second backup, discussed below, would mitigate many risks to the computer room
 
 To improve the availability of the CRAC units in the computer room, a second backup line from the Coating chiller will be connected to the main supply line that serves the computer room. This additional backup connection will enhance system redundancy, providing an extra layer of reliability in case of any disruptions with the primary or existing backup chillers
 
-The Coating Chiller has one line toward the CHU with 38% glycol. Then, from the CHU, there are two isolated lines with 25% glycol each, one toward the Vacuum Pump System and the second toward the Magnetron System. The computer room CRAC will function equally well with a 38% or 35% glycol mix. 
+The Coating Chiller has one line toward the CHU with 38% glycol. Then, from the CHU (Cooling and Heating Unit), there are two isolated lines with 25% glycol each, one toward the Vacuum Pump System and the second toward the Magnetron System. The computer room CRAC will function equally well with a 38% or 35% glycol mix. 
 
 Four electronically operated valves would be installed over the bathrooms to allow switching between the Level 1 and Level 3 chillers. 
 
@@ -40,7 +40,7 @@ The 36% glycol mix  is estimated to make a 1% overall difference to cooling effi
 **Engineering need to confirm this assumption that 36% Glycol in all Chillers is ok. **
 
 
-![Chiller Coating](./images/chiller_coating.png "Chiller Coating")
+![Cooling and Heating Unit](./images/chiller_coating.png)*Cooling and Heating Unit*
 
 The reduction on glycol mix could potentially free up 50Kw of capacity from the main system which could be good in commissioning
 
