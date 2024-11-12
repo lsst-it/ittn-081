@@ -16,7 +16,8 @@ The cooling system for the computer room is connected to Chiller 3, located on t
 
 ![First Floor](./images/first_floor.jpg "First Floor")
 
-This Chiller supplies the CRAC units within the computer room. The lines connected to this Chiller are mixed with 35% glycol, which allows for optimal cooling efficiency and freeze protection. Glycol is essential in this setup as it prevents the coolant from freezing at low temperatures, especially during colder months. This antifreeze characteristic of glycol helps maintain consistent temperatures and reduces the risk of pipe damage due to freezing.
+This Chiller supplies the CRAC units within the computer room. The lines connected to this Chiller are mixed with 35% glycol, which allows for optimal cooling efficiency and freeze protection. 
+Glycol is essential in this setup as it prevents the coolant from freezing at low temperatures within the chiller. 
 
 The lines supplying the CRAC units are installed within the false ceiling of the second floor, and the return lines interconnect above the location of the bathrooms.
 
@@ -37,9 +38,9 @@ There will be some mixing of the glycols in the computer room CRAC.
 This, or a accidental back flow, could lead over time to an equalization of the glycol at 36% (according to Doug). 
 The 36% glycol mix  is estimated to make a 1% overall difference to cooling efficiency but could allow the computer room to be taken off the main chiller reducing load by about 30% if needed.
 
-**Engineering need to confirm this assumption that 36% Glycol in all Chillers is ok. **
+Since the coating chiller is the same chiller type as the other three, and it does not operate at a colder temperature it can not have a problem with the 35% glycol. The coating chamber chiller actually never operates at as cold of temperatures as the rest of the Chillers.
 
-
+ 
 ![Cooling and Heating Unit](./images/chiller_coating.png)*Cooling and Heating Unit*
 
 The reduction on glycol mix could potentially free up 50Kw of capacity from the main system which could be good in commissioning
@@ -50,9 +51,10 @@ The connection to the current line will be done as shown in the image.
 
 ### Considerations
 
-Adding an inline filter near the coating chamber chiller, specifically on the line leading to the computer room, would be beneficial even though the coating chamber already has its own filter.
+Adding an inline filter near the coating chamber chiller, specifically on the line leading to the computer room, would be beneficial even though the coating chamber already has its own filter. 
+Adding a new filter adjacent to the connections to the existing pipes prevents any contaminates in the pipes when they are installed from getting into the cooling system.
 
-Installing a check valve can help prevent back flow, providing an additional layer of protection beyond the four motorized valves that will be installed in line with the coating chiller. This check valve will ensure that the coolant flows in only one direction, preventing any potential reverse flow that could modify the glycol mixture.
+Installing a check valve can help prevent  waiting flow/cooling capacity by sending flow in the wrong direction, providing an additional layer of protection beyond the four motorized valves that will be installed in line with the coating chiller. 
 
 ### Controls
 
@@ -63,3 +65,5 @@ To ensure the correct functioning of the system, the following controls must be 
 - Glycol concentration checks to maintain the expected mixture on both lines in the Coating chiller
 
 - Regularly test the redundancy and switchover process of the backup systems to ensure they function seamlessly in an emergency.
+
+<!--@include:acronyms.txt-->
